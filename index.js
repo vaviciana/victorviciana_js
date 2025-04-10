@@ -10,7 +10,7 @@ while (true) {
     }
 
     if (!diasNoDisponibles.includes(diaSolicitado)) {
-        console.log('Reservado');
+        console.log(`Reservado para el día ${diaSolicitado}`);
         diasNoDisponibles.push(diaSolicitado);
         break; 
     } else {
